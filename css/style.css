@@ -119,6 +119,7 @@ body {
 
 .footer-text {
   color: var(--color-white);
+  text-align: center;
 }
 
 .footer-icon {
@@ -339,37 +340,6 @@ body {
   .container {
     width: var(--main-container);
     padding: 0;
-  }
-
-  .header-container {
-    justify-content: space-between;
-  }
-
-  .main-nav {
-    display: flex;
-    align-items: center;
-    height: 50px;
-  }
-  .nav-item {
-    margin-right: 46px;
-  }
-  .nav-item:last-child {
-    margin-right: 0;
-  }
-
-  .nav-item a {
-    color: var(--color-white);
-    text-decoration: none;
-  }
-
-  .disabled {
-    color: currentColor;
-    cursor: not-allowed;
-    opacity: 0.6;
-    text-decoration: none;
-  }
-  .hero-text {
-    width: 65%;
   }
   .hero-btn:hover {
     background-color: var(--color-white);
